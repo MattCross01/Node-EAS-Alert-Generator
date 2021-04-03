@@ -8,18 +8,32 @@ font-style: bold;
 letter-spacing: 5px;
 }
 
+h1 {
+    letter-spacing: 7px;
+}
+
 .p {
-    font-size: 40px;
-    letter-spacing: 5px;
+    font-size: 165px;
+    letter-spacing: 15px;
 }
 
-.h2 {    
-    font-size: 40px;
-    letter-spacing: 5px;
+.marquee-text {    
+    font-size: 100px;
+    letter-spacing: 9px;
+    margin-top: -90px;
+    
 }
 
-.h3 {
-font-size: 40px;
-letter-spacing: 5px;
+h3 {
+    font-size: 85px;
+    letter-spacing: 5px;
+}
+ 
+h2 {
+    font-size: 70px;
+    margin-bottom: 90px;
+}
 
+.alert-type {
+font-size: 100px;
 }

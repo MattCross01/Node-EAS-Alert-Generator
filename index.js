@@ -18,7 +18,7 @@ const generateHTML = (answers) =>
     <h2 class="marquee-text"><marquee>${answers.marqueetext}</h2></marquee>
    <br>
     <p>${answers.alertissuer}</p>
-    <h3>Issued a</h3>
+    <h3 class="h3">Issued a</h3>
     <h2 class="alert-type">${answers.alerttype}
   </div>
 </div>
