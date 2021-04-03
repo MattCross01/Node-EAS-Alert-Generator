@@ -1,0 +1,25 @@
+body {
+background-color: black;
+color: white;
+font-family: 'DotGothic16', sans-serif;
+text-align: center;
+font-size: 50px;
+font-style: bold;
+letter-spacing: 5px;
+}
+
+.p {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.h2 {    
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.h3 {
+font-size: 40px;
+letter-spacing: 5px;
+
+}
