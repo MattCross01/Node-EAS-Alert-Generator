@@ -2,7 +2,7 @@
 
 
 
-LATEST UPDATE: Blue theme has been added!
+LATEST UPDATE: Blue theme has been added (Still under development)
 
 In order to see your changes, you must have Visual Studio Code & Node.js installed (LINKS BELOW) otherwise you will only see ther default node inputs.
 
