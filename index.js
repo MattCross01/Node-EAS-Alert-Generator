@@ -2,6 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const generateHTML = (answers) =>
+
   `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +13,11 @@ const generateHTML = (answers) =>
   <title>EAS GENERATOR</title>
 </head>
 <body>
+<audio src="https://www.youtube.com/watch?v=xU0h8LS6uSg" autoplay loop>${answers.sametones}</audio>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">EMERGENCY ALERT SYSTEM</h1>
-    <h2 class="marquee-text"><marquee>${answers.marqueetext}</h2></marquee>
+    <h2 class="marquee-text"><marquee scrollamount="35">${answers.marqueetext}</h2></marquee>
    <br>
     <p>${answers.alertissuer}</p>
     <h3 class="h3">Issued a</h3>
@@ -27,6 +29,11 @@ const generateHTML = (answers) =>
 
 inquirer
   .prompt([
+    {
+      type: 'input',
+      name: 'sametones',
+      message: 'Do you want to include the SAME header tones? WARNING: TONES ARE VALID, DO NOT ATTEMPT TO BROADCAST THIS PROGRAM!',
+    },
     {
       type: 'input',
       name: 'marqueetext',
@@ -47,6 +54,6 @@ inquirer
     const htmlPageContent = generateHTML(answers);
 
     fs.writeFile('index.html', htmlPageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created index.html!')
+      err ? console.log(err) : console.log('Successfully updated EAS inputs!')
     );
   });
