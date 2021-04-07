@@ -10,7 +10,7 @@ const generateHTML = (answers) =>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
-  <title>EAS GENERATOR</title>
+  <title>EAS GENERATOR - Black Theme</title>
 </head>
 <body>
 <audio src="https://www.youtube.com/watch?v=xU0h8LS6uSg" autoplay loop>${answers.sametones}</audio>
