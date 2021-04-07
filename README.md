@@ -1,7 +1,7 @@
 ***WELCOME TO MY EMERGENCY ALERT GENERATOR!***
 
 
-
+NOTE: This application is still under early development, check back frequently for newer updates!
 LATEST UPDATE: Blue theme has been added (Still under development)
 
 (For those who do not code) In order to see your changes, you must have Visual Studio Code [With GitBash] & Node.js installed (LINKS BELOW) otherwise you will only see ther default node inputs.
