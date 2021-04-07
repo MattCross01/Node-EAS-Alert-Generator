@@ -10,6 +10,8 @@ LATEST UPDATE: Blue theme has been added (Still under development)
 
 - Visual Studio Code: https://code.visualstudio.com/
 
+- Git: https://git-scm.com/downloads
+
  There are currently 4 inputs that can be updated: (SAME HEADER tones, scrolling text, alert issuer, alert type)
 
  To see your updated inputs, open the index.html file included. This is the where all the fun is! :)
