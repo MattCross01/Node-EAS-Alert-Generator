@@ -1,5 +1,7 @@
 ***WELCOME TO MY EMERGENCY ALERT GENERATOR!***
 
+LATEST UPDATE: Blue theme has been added!
+
 In order to see your changes, you must have Visual Studio Code & Node.js installed (LINKS BELOW) otherwise you will only see ther default node inputs.
 
 - Node.Js: https://nodejs.org/en/download/
@@ -28,7 +30,7 @@ Here is a live sample of the program running:
 
 ![Screenshot 2021-03-04 at 1 08 42 PM](https://i.ibb.co/g3xKhjX/forgithub.png)
 
-OTHER ALERT DISPLAY THEMES & TEXT-TO-SPEECH API COMING SOON!
+TEXT-TO-SPEECH API COMING SOON!
 ============================================================================
 
 - WARNING: This program contains VALID Emergency Alert System tones. Do NOT play these tones over the air, as you may trigger a real EAS activation, which will most likely result in imprisonment and/or $200,000+ fine. 
